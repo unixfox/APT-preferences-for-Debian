@@ -14,7 +14,7 @@ if ! type "sudo" > /dev/null; then
   apt-get install -qq -y sudo
 fi
 
-if [ "$remoteurlgit" != "https://github.com/unixfox/APT-preferences-for-Debian.git" ] || [ "$remoteurlgit" != "git@github.com:unixfox/APT-preferences-for-Debian-8.git" ]
+if [ "$remoteurlgit" != "https://github.com/unixfox/APT-preferences-for-Debian.git" ]
 then
 
 if ! type "git" > /dev/null; then
