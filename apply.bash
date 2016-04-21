@@ -29,6 +29,8 @@ fi
 
 log_progress_msg "Coping sources and preferences..."
 
+sudo mkdir /etc/apt/sources.list.d >/dev/null 2>&1
+sudo mkdir /etc/apt/preferences.d >/dev/null 2>&1
 sudo cp -R sources.list.d/* /etc/apt/sources.list.d/
 sudo cp -R preferences.d/* /etc/apt/preferences.d/
 
