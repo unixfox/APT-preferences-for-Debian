@@ -1,1 +1,1 @@
-deb http://ftp.debian.org/debian stable main contrib non-free
+deb http://httpredir.debian.org/debian stable main contrib non-free
